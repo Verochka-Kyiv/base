@@ -1,18 +1,7 @@
-/* Error: expected "{".
- *   ,
- * 5 | @forward './var.scss';np
- *   |                         ^
- *   '
- *   src\style\index.scss 5:25           @use
- *   src\container\index\index.scss 1:1  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: expected \"{\".\a   \2577 \a 5 \2502  @forward './var.scss';np\a   \2502                          ^\a   \2575 \a   src\\style\\index.scss 5:25           @use\a   src\\container\\index\\index.scss 1:1  root stylesheet";
+main {
+  background: #121212;
+  color: #ddd;
+  padding: 16px;
 }
+
+/*# sourceMappingURL=index.css.map */
